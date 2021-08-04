@@ -1,0 +1,154 @@
+.split {
+	height: 100%;
+	width: 50%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+	left: 0;
+	background-image: url("https://i.pinimg.com/originals/6b/ef/f0/6beff02fcf536467e6a07e2ba9e19113.png");
+  }
+  
+  /* Control the right side */
+  .right {
+	right: 0;
+	background-color: rgb(161, 198, 212);
+  }
+  h2{
+	  color: white;
+  }
+  
+  h3{
+	  color: black;
+	 font-size: 20px;
+  }
+  h4{
+	  font-size: 15px;
+  }
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+	width: 150px;
+	border-radius: 50%;
+  }
+  #Avatar{
+	  width: 30px;
+  }
+  html, body
+{
+  height: 100%;
+  margin: 0;
+}
+#lb{
+	width: 80px;
+	height: 40px;
+	background-color:rgba(102, 51, 153, 0);
+	margin-bottom: 200px;
+	margin-right: 380px;
+	border-color: rgba(102, 51, 153, 0);
+}
+#img1{
+	width: 70px;
+	height: 35px;
+	margin-bottom: 200px;
+	margin-right: 380px;
+
+}
+body
+{
+background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
+}
+
+.header
+{
+	color: white;font-family: 'Yeon Sung';font-size: 30px;letter-spacing: 10px;margin-top: 80px;
+}
+.header img
+{
+	width: 60px;margin-left: -15px;
+}
+
+.login_div
+{
+	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+}
+
+
+#login_button
+{
+	width: 80%;border-radius: 15px;
+	background-color: rgb(124, 189, 209);
+}
+
+.room_name
+{
+	cursor: grab;
+	font-size: 20px;
+}
+
+
+#logout
+{
+	font-size: 20px; float: right;
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+.color_white
+{
+	color: white
+}
+
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:5px;color:grey;
+}
